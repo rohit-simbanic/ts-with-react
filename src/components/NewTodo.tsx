@@ -4,6 +4,7 @@ interface newTodoProps {
 }
 
 const NewTodo: React.FC<newTodoProps> = (props) => {
+  //   console.log(props);
   const textInput = useRef<HTMLInputElement>(null);
   const onSubmitHandler = (e: React.FormEvent) => {
     e.preventDefault();
