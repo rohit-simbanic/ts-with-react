@@ -8,6 +8,7 @@ type propsType = {
 };
 
 const TodoList: React.FC<propsType> = (props) => {
+  console.log(props);
   return (
     <ul>
       {props.items.map((todo) => (
